@@ -64,15 +64,7 @@ def read_and_correct(filename="split_surface_from_0.csv"):
 # Example usage:
 results = read_and_correct()
 
-print(f"{results}/10,000")
+print(f"{results/3}/10,000")
 
 
 #####################################################################################################
-
-
-
-
-
-# Example usage
-test_str = "0000000001100000000100000000"
-print(correct(test_str))  # Output: "WRONG" or "CORRECT"
